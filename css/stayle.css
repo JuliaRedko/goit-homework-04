@@ -209,6 +209,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     margin-bottom: var(--basic-margin-text);
 }
 
@@ -235,7 +236,6 @@ body {
 
 .feature > .feature-list {
     flex-basis: calc(100% / 4);
-    padding-bottom: 120px;
 }
 
 .feature .subtitle {
@@ -402,14 +402,12 @@ body {
 /* Footer */
 
 .footer {
-    background-color: var(--title-text-color);   
-}
-
-.conteiner-footer-logo {
+    background-color: var(--title-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
+
+.conteiner-footer-logo {}
 
 .footer-container {
     display: flex;
@@ -439,10 +437,6 @@ body {
 /* Footer social */
 
 .social-media-footer {
-    display: block;
-    width: 208px;
-    height: 80px;
-    padding-top: 100px;
     margin-left: 120px;
 }
 
