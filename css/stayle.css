@@ -351,12 +351,15 @@ body {
 }
   /* Section 4 */
 
-.section-customers {}
+.section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .conteiner {}
 
 .title-customers {
-    padding-top: 130px;
+    
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -370,11 +373,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: var(--basic-gap);
-    
-   
-        flex-direction: row;
-        
-        padding: 0px;
 }
 
 .customers-logo {
